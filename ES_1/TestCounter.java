@@ -1,9 +1,7 @@
 public class TestCounter {
     public static void main(String args[]){
-        Counter counter=new Counter();
-        counter.start();
+        System.out.println("Primo Thread:    ----> "+Thread.currentThread().getName());
+        // Counter counter=new Counter();
+        // counter.start();
     }
-    
-    
-    
 }
